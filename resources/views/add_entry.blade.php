@@ -77,7 +77,7 @@
                                         <td>{{ $row->entry_no }}</td>
                                         <td>{{ $row->name }}</td>
                                         <td>
-                                            <a target="_blank" href="{{ url("/view/logo/".$row->path) }}">View Logo</a>
+                                            <a target="_blank" href="{{ url("/logo/".$row->path) }}">View Logo</a>
                                         </td>
                                         <td>
                                             <a href="{{ url("/entry/delete/".$row->id) }}" class="text-danger" onclick="return confirm('Are you sure you want to delete this entry?')">
