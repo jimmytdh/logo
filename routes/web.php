@@ -29,6 +29,7 @@ Route::get('/judge/delete/{id}','JudgeCtrl@delete')->middleware('admin');
 Route::post('/judge/save','JudgeCtrl@save')->middleware('admin');
 
 Route::get('/result','HomeCtrl@result');
+Route::get('/create/user','UserCtrl@createUser');
 
 
 Route::get('/logo/{filename}', function ($filename)

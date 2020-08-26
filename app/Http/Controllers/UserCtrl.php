@@ -129,4 +129,128 @@ class UserCtrl extends Controller
         User::find($id)->delete();
         return redirect('/users')->with('status','deleted');
     }
+
+    function createUser()
+    {
+        User::create([
+            'level' => 'judge',
+            'username' => '%aTZGa',
+            'password' => bcrypt('aTZGa')
+        ]);
+
+        User::create([
+            'level' => 'judge',
+            'username' => 'nRD$D%',
+            'password' => bcrypt('nRD$D%')
+        ]);
+
+        User::create([
+            'level' => 'judge',
+            'username' => 'sj&RPd',
+            'password' => bcrypt('sj&RPd')
+        ]);
+
+        User::create([
+            'level' => 'judge',
+            'username' => 'q3FM&7',
+            'password' => bcrypt('q3FM&7')
+        ]);
+
+        User::create([
+            'level' => 'judge',
+            'username' => '%!Ek3x',
+            'password' => bcrypt('Ek3x')
+        ]);
+
+        User::create([
+            'level' => 'judge',
+            'username' => 'tT#0Oa',
+            'password' => bcrypt('tT#0Oa')
+        ]);
+
+        User::create([
+            'level' => 'judge',
+            'username' => 'iw41$T',
+            'password' => bcrypt('iw41$T')
+        ]);
+
+        User::create([
+            'level' => 'judge',
+            'username' => 'aKfM!7',
+            'password' => bcrypt('aKfM!7')
+        ]);
+
+        User::create([
+            'level' => 'judge',
+            'username' => 'nU%PH*',
+            'password' => bcrypt('nU%PH*')
+        ]);
+
+        User::create([
+            'level' => 'judge',
+            'username' => '8lK3&x',
+            'password' => bcrypt('8lK3&x')
+        ]);
+
+        User::create([
+            'level' => 'judge',
+            'username' => '^CCqze',
+            'password' => bcrypt('CCqze')
+        ]);
+
+        User::create([
+            'level' => 'judge',
+            'username' => 'cOSg!A',
+            'password' => bcrypt('cOSg!A')
+        ]);
+
+        User::create([
+            'level' => 'judge',
+            'username' => 'x#wFK*',
+            'password' => bcrypt('x#wFK*')
+        ]);
+
+        User::create([
+            'level' => 'judge',
+            'username' => 'jTu#&N',
+            'password' => bcrypt('jTu#&N')
+        ]);
+
+        User::create([
+            'level' => 'judge',
+            'username' => 'Wccr!x',
+            'password' => bcrypt('Wccr!x')
+        ]);
+
+        User::create([
+            'level' => 'judge',
+            'username' => 'AbhWE^',
+            'password' => bcrypt('AbhWE^')
+        ]);
+
+        User::create([
+            'level' => 'judge',
+            'username' => 'oEq%6Y',
+            'password' => bcrypt('oEq%6Y')
+        ]);
+
+        User::create([
+            'level' => 'judge',
+            'username' => 'aMa%%q',
+            'password' => bcrypt('aMa%%q')
+        ]);
+
+        User::create([
+            'level' => 'judge',
+            'username' => 'LEF*Md',
+            'password' => bcrypt('LEF*Md')
+        ]);
+
+        User::create([
+            'level' => 'judge',
+            'username' => '*HuBvx',
+            'password' => bcrypt('HuBvx')
+        ]);
+
+    }
 }
